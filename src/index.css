@@ -16,9 +16,9 @@
 }
 
 @keyframes left-to-right {
-  0% { transform: translateX(0%);}
-  50% {transform: translateX(25%);}
-  100% {transform: translateX(0%);}
+  0% { transform: translateX(0);}
+  50% {transform: translateX(480px);}
+  100% {transform: translateX(0);}
 }
 
 .right-to-left {
@@ -29,9 +29,9 @@
 }
 
 @keyframes right-to-left {
-  0% { transform: translateX(0%);}
-  50% {transform: translateX(-25%);}
-  100% {transform: translateX(0%);}
+  0% { transform: translateX(0);}
+  50% {transform: translateX(-480px);}
+  100% {transform: translateX(0);}
 }
 
 .tag {

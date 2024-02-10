@@ -580,12 +580,12 @@ video {
   width: 2rem;
 }
 
-.cursor-pointer{
-  cursor: pointer;
-}
-
 .cursor-default{
   cursor: default;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
 
 .flex-col{
@@ -737,7 +737,7 @@ video {
 }
 
 .left-to-right {
-  animation: left-to-right 20s infinite linear;
+  animation: left-to-right 40s infinite linear;
   &:hover {
     animation-play-state: paused;
   }
@@ -749,7 +749,7 @@ video {
   }
 
   50% {
-    transform: translateX(100%);
+    transform: translateX(25%);
   }
 
   100% {
@@ -758,7 +758,7 @@ video {
 }
 
 .right-to-left {
-  animation: right-to-left 20s infinite linear;
+  animation: right-to-left 40s infinite linear;
   &:hover {
     animation-play-state: paused;
   }
@@ -770,7 +770,7 @@ video {
   }
 
   50% {
-    transform: translateX(-100%);
+    transform: translateX(-25%);
   }
 
   100% {

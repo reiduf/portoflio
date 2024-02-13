@@ -3,27 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-  <script src="./index.js" defer></script>
+  <link href="./css/output.css" rel="stylesheet">
+  <script src="./js/base.js" defer></script>
   <title>Reina DuFrene</title>
 </head>
 <body class="font-primary">
-  <nav>
-    <div id="burger" class="flex justify-end p-5 lg:hidden">
-      <svg class="w-8 h-8 cursor-pointer"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
-        <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
-      </svg>
-    </div>
-    
-    <ul id="nav" class="lg:flex flex-col hidden lg:flex-row items-center gap-6 my-3 p-8 justify-end">
-      <li class="cursor-pointer font-medium text-pink-400">Home</li>
-      <li class="cursor-pointer font-medium text-pink-400">About</li>
-      <li class="cursor-pointer font-medium text-pink-400">Projects</li>
-      <li class="cursor-pointer font-medium text-pink-400">Experience</li>
-      <li class="cursor-pointer font-medium text-pink-400 border-pink-400 border-2 p-2 rounded-xl hover:bg-pink-400 hover:text-white transition duration-300">Contact Me</li>
-    </ul>
-  </nav>
-  <main>
+  <main class="h-screen">
+    <nav>
+      <div id="burger" class="flex justify-end p-5 lg:hidden">
+        <svg class="w-8 h-8 cursor-pointer"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" >
+          <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+        </svg>
+      </div>
+      
+      <ul id="nav" class="lg:flex flex-col hidden lg:flex-row items-center gap-6 my-3 p-8 justify-end">
+        <a href="./index.html"><li class="active cursor-pointer font-medium text-pink-400">Home</li></a>
+        <a href="./about.html"><li class="cursor-pointer font-medium text-pink-400">About</li></a>
+        <li class="cursor-pointer font-medium text-pink-400">Projects</li>
+        <li class="cursor-pointer font-medium text-pink-400">Experience</li>
+        <li class="cursor-pointer font-medium text-pink-400 border-pink-400 border-2 p-2 rounded-xl hover:bg-pink-400 hover:text-white transition duration-300">Contact Me</li>
+      </ul>
+    </nav>
     <div class="flex flex-col justify-center items-center p-4">
       <h1 class="
         font-bold 
@@ -53,6 +53,7 @@
         <p class="tag bg-pink-300">super mario expert</p>
         <p class="tag bg-cyan-300">eclectic ear</p>
         <p class="tag bg-pink-400">granddaughter</p>
+        <p class="tag bg-cyan-300">Lego addict</p>
         <p class="tag bg-pink-400">CO resident</p>
         <p class="tag bg-cyan-300">aunt</p>
         <p class="tag bg-pink-300">cruise aficionado</p>
@@ -103,5 +104,26 @@
       <button class="border-pink-400 text-center border-[3px] p-3 font-semibold rounded-xl my-8 text-pink-400 hover:bg-pink-400 hover:text-white transition duration-300">Check Out My Work</button>
     </div>
   </main>
+
+  <!-- about -->
+  <section class="bg-pink-200 py-4">
+    <div class="flex justify-center items-center mt-10">
+      <h2 class="lg:text-4xl text-3xl inline-block font-bold border-b-4 text-pink-400 border-pink-400 pb-2">About Me</h2>
+    </div>
+    <div class="flex justify-center">
+      <div class="lg:w-1/3 p-4">
+        <p class="leading-8 text-xs my-3">Hey there! I'm Reina, an endlessly curious and creatively-minded programmer with a billion and one interests.</p>
+        <p class="leading-8 text-xs my-3">My background is all about visuals: I earned a Bachelor of Science in Graphic Communication with a minor in Packaging back in 2016. For about seven years, I had the absolute pleasure of working for a print company, managing and creating projects that spanned a wide range of clients and industries.</p>
+        <p class="leading-8 text-xs my-3">I adored the daily variety, jumping from projects related to cannabis, beauty, medical, pharmaceuticals, and everything in between. Fascinating stuff, but I found myself itching for a change, craving technical challenges, skill-building, and contact with industries beyond print.</p>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <div class="lg:w-1/3 p-4">
+        <p class="leading-8 text-xs my-3">During the COVID pandemic, my free time transformed into a playful exploration of JavaScript tutorials online and an entertaining dive into "Coding for Dummies" books. I found the challenge exceptionally rewarding, experiencing a peculiar shift from the visual to the logical hemisphere of my brain.</p>
+        <p class="leading-8 text-xs my-3">Realizing that programming combined the best of my old career with everything I wanted in a new one, I decided to take the plunge. I recently wrapped up a 12-week intensive Software Engineering Bootcamp with General Assembly. Now, I'm immersed in learning and networking with industry professionals every day, eagerly seeking an opportunity to blend my creative background with my newfound technical prowess! </p>
+      </div>
+    </div>
+  </section>
 </body>
 </html>

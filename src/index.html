@@ -161,7 +161,7 @@
   </section>
 
   <!-- projects -->
-  <section id="projects" class=" pt-8 lg:h-screen bg-slate-50">
+  <section id="projects" class=" pt-8 lg:h-screen h-fit bg-slate-50">
     <div class="flex items-center">
       <div class="bg-yellow-400 h-8 w-8 inline-block "></div>
       <div class="bg-yellow-300 h-8 w-8 inline-block "></div>
@@ -170,50 +170,107 @@
       <h2 class="text-yellow-400 text-4xl mx-4 font-bold ml-8">Projects</h2>
     </div>
 
-    <div class="mt-10 grid lg:grid-cols-2 xl:grid-cols-4 grid-cols-1 h-3/4 p-16 gap-4">
-      <article class="bg-white p-5 shadow-md hover:rotate-[-2deg] transition duration-150">
-        <div class="h-2/3 w-full bg-cyan-100"></div>
+    <div class="mt-10 grid lg:grid-cols-2 2xl:grid-cols-4 grid-cols-1 lg:h-3/4 h-fit lg:p-16 p-8 gap-4">
+      <article class="bg-white h-[32rem] p-5 shadow-md hover:rotate-[-2deg] transition duration-150">
+        <div class="lg:h-2/3 h-2/3 w-full bg-cyan-100"></div>
         <h3 class="font-bold text-2xl mt-4 uppercase mb-2">MouseQuest</h3>
-        <p class="">Mobile-first, Disneyland community scavenger hunt web app</p>
-        <span>Skill 1</span>
-        <span>Skill 2</span>
-        <span>Skill 3</span>
-        <span>Skill 4</span>
+        <div class="flex flex-col justify-between lg:gap-8 gap-10">
+          <p class="text-sm">Mobile-first, Disneyland community scavenger hunt web app</p>
+          <div class="flex items-center flex-wrap leading-3">
+            <span class="text-[0.65rem] uppercase">Typescript</span>
+            <div class="h-2 w-2 mx-2 bg-cyan-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">React.js</span>
+            <div class="h-2 w-2 mx-2 bg-cyan-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Tailwindcss</span>
+            <div class="h-2 w-2 mx-2 bg-cyan-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Express.js</span>
+            <div class="h-2 w-2 mx-2 bg-cyan-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Node.js</span>
+            <div class="h-2 w-2 mx-2 bg-cyan-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">mongoose.js</span>
+            <div class="h-2 w-2 mx-2 bg-cyan-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">mongodb</span>
+            <div class="h-2 w-2 mx-2 bg-cyan-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">restful api's</span>
+          </div>
+        </div>
       </article>
-      <article class="bg-white p-5 shadow-md hover:rotate-[-3deg] transition duration-150">
-        <div class="h-2/3 w-full bg-pink-100"></div>
+
+      <article class="bg-white h-[32rem] p-5 shadow-md hover:rotate-[-3deg] transition duration-150">
+        <div class="lg:h-2/3 h-2/3 w-full bg-pink-100"></div>
         <h3 class="font-bold text-2xl mt-4 uppercase mb-2">Appmate</h3>
-        <p class="">Project description</p>
-        <span>Skill 1</span>
-        <span>Skill 2</span>
-        <span>Skill 3</span>
-        <span>Skill 4</span>
+        <div class="flex flex-col justify-between lg:gap-8 gap-5">
+          <p class="text-sm">Group project web app that keeps job seekers stay organized when mass applying and networking</p>
+          <div class="flex items-center flex-wrap leading-3">
+            <span class="text-[0.65rem] uppercase">Python</span>
+            <div class="h-2 w-2 mx-2 bg-pink-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Django</span>
+            <div class="h-2 w-2 mx-2 bg-pink-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Tailwindcss</span>
+            <div class="h-2 w-2 mx-2 bg-pink-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Postgresql</span>
+            <div class="h-2 w-2 mx-2 bg-pink-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Restful Routing</span>
+            <div class="h-2 w-2 mx-2 bg-pink-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Mob/Pair programming</span>
+          </div>
+        </div>
       </article>
-      <article class="bg-white p-5 shadow-md hover:rotate-[-2deg] transition duration-150">
-        <div class="h-2/3 w-full bg-yellow-100"></div>
+
+      <article class="bg-white h-[32rem] p-5 shadow-md hover:rotate-[-2deg] transition duration-150">
+        <div class="lg:h-2/3 h-2/3 w-full bg-yellow-100"></div>
         <h3 class="font-bold text-2xl mt-4 uppercase mb-2">Captain's Log</h3>
-        <p class="">Project description</p>
-        <span>Skill 1</span>
-        <span>Skill 2</span>
-        <span>Skill 3</span>
-        <span>Skill 4</span>
+        <div class="flex flex-col justify-between lg:gap-8 gap-10">
+          <p class="text-sm">Enables authorized users to track and journal their cruise travels</p>
+          <div class="flex items-center flex-wrap leading-3">
+            <span class="text-[0.65rem] uppercase">mongodb</span>
+            <div class="h-2 w-2 mx-2 bg-yellow-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Express.js</span>
+            <div class="h-2 w-2 mx-2 bg-yellow-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Node.js</span>
+            <div class="h-2 w-2 mx-2 bg-yellow-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Mongoose.js</span>
+            <div class="h-2 w-2 mx-2 bg-yellow-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">HTML/EJS</span>
+            <div class="h-2 w-2 mx-2 bg-yellow-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">CSS</span>
+            <div class="h-2 w-2 mx-2 bg-yellow-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Google OAuth</span>
+            <div class="h-2 w-2 mx-2 bg-yellow-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Restful Routing</span>
+          </div>
+        </div>
       </article>
-      <article class="bg-white p-5 shadow-md hover:rotate-[-3deg] transition duration-150">
-        <div class="h-2/3 w-full bg-gray-200"></div>
+
+      <article class="bg-white h-[32rem] p-5 shadow-md hover:rotate-[-3deg] transition duration-150">
+        <div class="lg:h-2/3 h-2/3 w-full bg-gray-200"></div>
         <h3 class="font-bold text-2xl mt-4 uppercase mb-2">Disney Memory Challenge</h3>
-        <p class="">Project description</p>
-        <span>Skill 1</span>
-        <span>Skill 2</span>
-        <span>Skill 3</span>
-        <span>Skill 4</span>
+        <div class="flex flex-col justify-between lg:gap-8 gap-4">
+          <p class="text-sm">Browser game that challenges players to find matching sets of Disney tiles</p>
+          <div class="flex items-center flex-wrap leading-3">
+            <span class="text-[0.65rem] uppercase">HTML</span>
+            <div class="h-2 w-2 mx-2 bg-gray-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">CSS</span>
+            <div class="h-2 w-2 mx-2 bg-gray-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Vanilla JS</span>
+            <div class="h-2 w-2 mx-2 bg-gray-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">MVC Design</span>
+            <div class="h-2 w-2 mx-2 bg-gray-200 inline-block"></div>
+            <span class="text-[0.65rem] uppercase">Git / github</span>
+          </div>
+        </div>
       </article>
     </div>
   </section>
 
   <!-- experience -->
-  <section id="experience" class="bg-cyan-200 py-4 lg:h-screen">
-    <div class="flex justify-center items-center mt-5">
-      <h2 class="lg:text-4xl text-3xl inline-block font-bold border-b-4 text-cyan-400 border-cyan-400 pb-2">Experience</h2>
+  <section id="experience" class="py-8 lg:h-screen">
+    <div class="flex items-center">
+      <div class="bg-gray-950 h-8 w-8 inline-block "></div>
+      <div class="bg-gray-700 h-8 w-8 inline-block "></div>
+      <div class="bg-gray-500 h-8 w-8 inline-block "></div>
+      <div class="bg-gray-400 h-8 w-8 inline-block "></div>
+      <h2 class="text-gray-700 text-4xl mx-4 font-bold ml-8">Experience</h2>
     </div>
 
   </section>

@@ -597,6 +597,11 @@ video {
   margin-right: 1rem;
 }
 
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mt-8{
   margin-top: 2rem;
 }
@@ -762,6 +767,18 @@ video {
   height: 75%;
 }
 
+.h-\[28rem\]{
+  height: 28rem;
+}
+
+.h-\[32rem\]{
+  height: 32rem;
+}
+
+.h-\[36rem\]{
+  height: 36rem;
+}
+
 .w-8{
   width: 2rem;
 }
@@ -820,6 +837,10 @@ video {
 
 .w-4{
   width: 1rem;
+}
+
+.w-1{
+  width: 0.25rem;
 }
 
 .shrink-0{
@@ -912,6 +933,10 @@ video {
 
 .gap-14{
   gap: 3.5rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
 }
 
 .overflow-hidden{
@@ -1138,6 +1163,16 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-gray-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-gray-700{
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\'\)\]{
   background-image: url('');
 }
@@ -1339,6 +1374,14 @@ video {
   line-height: 1;
 }
 
+.text-\[0\.6rem\]{
+  font-size: 0.6rem;
+}
+
+.text-\[0\.65rem\]{
+  font-size: 0.65rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1387,6 +1430,10 @@ video {
   line-height: 4.5rem;
 }
 
+.leading-3{
+  line-height: .75rem;
+}
+
 .text-cyan-400{
   --tw-text-opacity: 1;
   color: rgb(34 211 238 / var(--tw-text-opacity));
@@ -1425,6 +1472,16 @@ video {
 .text-yellow-500{
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .shadow-md{
@@ -1614,6 +1671,14 @@ video {
     height: 45%;
   }
 
+  .lg\:h-3\/4{
+    height: 75%;
+  }
+
+  .lg\:h-2\/3{
+    height: 66.666667%;
+  }
+
   .lg\:w-1\/3{
     width: 33.333333%;
   }
@@ -1664,6 +1729,14 @@ video {
 
   .lg\:gap-10{
     gap: 2.5rem;
+  }
+
+  .lg\:gap-8{
+    gap: 2rem;
+  }
+
+  .lg\:p-16{
+    padding: 4rem;
   }
 
   .lg\:text-4xl{
@@ -1719,6 +1792,10 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
+  .xl\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .xl\:flex-row{
     flex-direction: row;
   }
@@ -1745,6 +1822,12 @@ video {
 
   .xl\:gap-28{
     gap: 7rem;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 

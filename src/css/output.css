@@ -843,6 +843,26 @@ video {
   width: 0.25rem;
 }
 
+.w-24{
+  width: 6rem;
+}
+
+.w-16{
+  width: 4rem;
+}
+
+.w-3\/4{
+  width: 75%;
+}
+
+.w-5\/6{
+  width: 83.333333%;
+}
+
+.w-11\/12{
+  width: 91.666667%;
+}
+
 .shrink-0{
   flex-shrink: 0;
 }
@@ -1310,6 +1330,16 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .pb-3{
   padding-bottom: 0.75rem;
 }
@@ -1649,6 +1679,10 @@ video {
   .lg\:my-0{
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .lg\:inline-block{
+    display: inline-block;
   }
 
   .lg\:flex{

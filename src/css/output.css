@@ -1134,12 +1134,8 @@ video {
 
 @keyframes drop-in-side {
   0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 1;
+    transform: translateX(-200%);
+    opacity: 0.5;
   }
 
   100% {
@@ -1149,14 +1145,14 @@ video {
 }
 
 .drop-in {
-  animation: 0.75s ease-in-out 1 drop-in;
+  animation: 0.6s ease-in-out 1 drop-in;
   animation-fill-mode: forwards;
 }
 
 .drop-in-words {
-  animation: 0.5s ease-out 0s 1 drop-in-side;
+  animation: 0.3s ease-out 0s 1 drop-in-side;
   animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-delay: 1.5s;
 }
 
 .hover\:rotate-\[-2deg\]:hover{

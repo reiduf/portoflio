@@ -38,3 +38,42 @@
   @apply text-sm text-white px-3 py-2 rounded-lg shrink-0;
 }
 
+@keyframes drop-in {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes drop-in-side {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.drop-in {
+  animation: 0.75s ease-in-out 1 drop-in;
+  animation-fill-mode: forwards;
+
+}
+
+.drop-in-words {
+  animation: 0.5s ease-out 0s 1 drop-in-side;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}

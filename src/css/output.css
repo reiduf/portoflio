@@ -1297,6 +1297,10 @@ video {
   fill: #facc15;
 }
 
+.hover\:fill-gray-400:hover{
+  fill: #9ca3af;
+}
+
 .hover\:stroke-cyan-400:hover{
   stroke: #22d3ee;
 }

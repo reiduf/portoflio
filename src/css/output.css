@@ -1293,6 +1293,10 @@ video {
   fill: #f472b6;
 }
 
+.hover\:fill-yellow-400:hover{
+  fill: #facc15;
+}
+
 .hover\:stroke-cyan-400:hover{
   stroke: #22d3ee;
 }

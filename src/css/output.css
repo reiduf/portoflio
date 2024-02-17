@@ -804,6 +804,14 @@ video {
   height: 3rem;
 }
 
+.h-\[105vh\]{
+  height: 105vh;
+}
+
+.h-\[120vh\]{
+  height: 120vh;
+}
+
 .w-2{
   width: 0.5rem;
 }
@@ -1289,6 +1297,11 @@ video {
   line-height: 1rem;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1319,6 +1332,10 @@ video {
 
 .leading-\[4\.5rem\]{
   line-height: 4.5rem;
+}
+
+.leading-\[4rem\]{
+  line-height: 4rem;
 }
 
 .text-cyan-400{
@@ -1575,6 +1592,10 @@ video {
   .md\:leading-\[6rem\]{
     line-height: 6rem;
   }
+
+  .md\:leading-\[5rem\]{
+    line-height: 5rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1638,6 +1659,14 @@ video {
   .lg\:py-0{
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .lg\:pt-32{
+    padding-top: 8rem;
+  }
+
+  .lg\:pt-24{
+    padding-top: 6rem;
   }
 
   .lg\:text-3xl{

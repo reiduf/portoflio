@@ -73,5 +73,5 @@
 .drop-in-words {
   animation: 0.6s ease-out 0s 1 drop-in-side;
   animation-fill-mode: forwards;
-  animation-delay: 1.5s;
+  animation-delay: 0.9s;
 }

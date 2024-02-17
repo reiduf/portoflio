@@ -1042,6 +1042,11 @@ video {
   padding-right: 2.5rem;
 }
 
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pt-8{
   padding-top: 2rem;
 }

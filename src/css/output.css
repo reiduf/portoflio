@@ -580,6 +580,10 @@ video {
   }
 }
 
+.fixed{
+  position: fixed;
+}
+
 .m-2{
   margin: 0.5rem;
 }

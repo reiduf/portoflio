@@ -650,6 +650,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
 .inline-block{
   display: inline-block;
 }
@@ -1011,8 +1015,17 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pt-8{
   padding-top: 2rem;
+}
+
+.pl-8{
+  padding-left: 2rem;
 }
 
 .text-center{
@@ -1061,6 +1074,11 @@ video {
   line-height: 1rem;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1087,6 +1105,14 @@ video {
 
 .leading-\[4\.5rem\]{
   line-height: 4.5rem;
+}
+
+.leading-6{
+  line-height: 1.5rem;
+}
+
+.leading-10{
+  line-height: 2.5rem;
 }
 
 .text-cyan-400{
@@ -1265,6 +1291,11 @@ video {
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-cyan-400:hover{
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-2xl:hover{

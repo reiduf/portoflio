@@ -1,5 +1,5 @@
 const burger = document.getElementById('burger')
-const navbar = document.getElementById('nav')
+const navbar = document.getElementById('nav-mobile')
 const mq = document.getElementById('mq')
 
 
